@@ -4,12 +4,12 @@
 
 /*
  *
- * main - Entry point
+ * main - Entry point for main function
  *
  *
  *
  * Description: prints "with proper grammar, but the outcome is
- *a piece of art,"
+ * a piece of art,"
  *
  *
  * Return: Always 0 (Success)
