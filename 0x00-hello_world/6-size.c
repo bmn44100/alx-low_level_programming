@@ -16,6 +16,7 @@
  */
 
 int main(void)
+
 {
 	printf("Size of a char: %d byte(s)\n", (int) sizeof(char));
 
