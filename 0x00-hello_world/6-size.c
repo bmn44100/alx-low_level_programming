@@ -18,7 +18,6 @@
 
 int main(void)
 {
-
 	printf("Size of a char: %d byte(s)\n", (int) sizeof(char));
 
 	printf("Size of an int: %d byte(s)\n", (int) sizeof(int));
@@ -31,5 +30,4 @@ int main(void)
 
 
 		return (0);
-
 }
