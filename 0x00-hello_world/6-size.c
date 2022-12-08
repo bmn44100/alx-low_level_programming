@@ -3,7 +3,6 @@
 
 
 /*
- *
  * main - Entry point for main function
  *
  *
