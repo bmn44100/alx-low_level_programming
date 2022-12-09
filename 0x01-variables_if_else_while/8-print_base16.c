@@ -2,7 +2,7 @@
 
 
 
-/**
+/*
  *
  * main - print the letters of the alphabet
  *
@@ -25,7 +25,6 @@ int main(void)
 	int i = 0;
 
 
-
 	while (i < 48)
 
 	{
@@ -43,8 +42,6 @@ int main(void)
 	}
 
 	putchar(10);
-
-
 
 	return (0);
 

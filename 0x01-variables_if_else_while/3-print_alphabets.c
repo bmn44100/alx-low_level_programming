@@ -2,7 +2,7 @@
 
 
 
-/**
+/*
  *
  * main - print the letters of the alphabet
  *

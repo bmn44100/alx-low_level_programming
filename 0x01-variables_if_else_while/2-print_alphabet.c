@@ -2,7 +2,7 @@
 
 
 
-/**
+/*
  *
  * main - print the letters of the alphabet
  *
@@ -28,18 +28,18 @@ int main(void)
 
 	while (i < 123)
 
-		{
+	{
 
-			putchar(i);
+		putchar(i);
 
-			i++;
+		i++;
 
-		}
+	}
 
-		putchar(10);
+	putchar(10);
 
 
 
-		return (0);
+	return (0);
 
 }

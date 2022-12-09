@@ -6,7 +6,7 @@
 
 
 
-/**
+/*
  *
  * main - print last digit in random number
  *

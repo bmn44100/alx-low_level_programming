@@ -2,7 +2,7 @@
 
 
 
-/**
+/*
  *
  * main - print single digit numbers
  *
@@ -25,10 +25,7 @@ int main(void)
 	int i;
 
 
-
 	i = 48;
-
-
 
 	while (i < 58)
 
@@ -41,10 +38,7 @@ int main(void)
 	}
 
 
-
 	putchar(10);
-
-
 
 	return (0);
 
