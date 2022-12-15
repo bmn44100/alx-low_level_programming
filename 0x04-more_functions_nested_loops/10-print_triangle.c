@@ -19,6 +19,10 @@ void print_triangle(int size)
 		{
 			for (spaces = size - 1; spaces > line; spaces--)
 			{
+				_putchar(' ');
+			}
+			for (hashes = 0; hashes < line + 1; hashes++)
+			{
 				_putchar('#');
 			}
 			_putchar('\n');
