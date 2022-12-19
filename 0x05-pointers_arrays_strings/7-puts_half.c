@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void puts_half(char *str)
+void puts_half(char *)
 {
 	int i, j, max;
 
