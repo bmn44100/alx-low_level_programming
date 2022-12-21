@@ -20,8 +20,14 @@ char *leet(char *s)
 			s[i] = '0';
 		else if (s[i] == 't' || s[i] == 'T')
 			s[i] = '7';
-		else (s[i] == 'l' || s[i] == 'L')
-			s[i] = '1';
+		else
+		{
+			do
+			{
+				s[i] = '1';
+			}
+			while (s[i] == 'l' || s[i] == 'L')
+		}
 	}
 
 	return (s);
