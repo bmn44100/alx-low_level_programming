@@ -1,5 +1,5 @@
 !<arch>
-main.h/         0           0     0     644     899       `
+main.h/         0           0     0     644     846       `
 #include <unistd.h>
 
 /**
@@ -9,11 +9,6 @@ main.h/         0           0     0     644     899       `
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
 
 int _putchar(char c);
 int _islower(int c);
@@ -35,4 +30,3 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
-
