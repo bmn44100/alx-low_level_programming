@@ -27,11 +27,10 @@ int _strlen(char *str)
 
 char *argstostr(int ac, char **av)
 {
-	int i, j, k, length;
-
-	k = 0;
-	length = 0;
-
+	int i;
+	int j;
+	int k = 0;
+	int length = 0;
 	char *ar;
 
 	if (ac == 0 || av == NULL)
