@@ -25,7 +25,7 @@ int _strlen(char *str)
  * Return: pointer to a new string, or NULL if it fails
  */
 
-char *argstostr(int ac; char **av)
+char *argstostr(int ac, char **av)
 {
 	int i, j, k, length;
 
