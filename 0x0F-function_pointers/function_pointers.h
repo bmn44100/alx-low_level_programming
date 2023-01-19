@@ -1,3 +1,7 @@
+#ifndef _FUNCTIONPOINTERS_H_
+#define _FUNCTIONPOINTERS_H_
+
+#include <stdlib.h>
 #include <unistd.h>
 
 /**
@@ -10,3 +14,5 @@
 
 int _putchar(char c);
 void print_name(char *name, void (*f)(char *));
+
+#endif /*_FUNCTIONPOINTERS_H_*/
