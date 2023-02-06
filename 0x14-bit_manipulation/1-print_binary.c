@@ -8,6 +8,7 @@
 void print_binary(unsigned long int n)
 {
 	unsigned long int count = 1;
+
 	count = count << MAX_INDEX;
 
 	while ((count & n) == 0 && count > 1)
