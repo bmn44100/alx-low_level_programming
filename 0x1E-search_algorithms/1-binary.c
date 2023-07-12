@@ -3,7 +3,7 @@
 /**
  * print_subarray - prints a subarray
  * @array: pointer to array
- * @initial: index of initial element to print
+ * @first: index of initial element to print
  * @last: index of last element to print
  */
 
@@ -25,7 +25,7 @@ void print_subarray(int *array, size_t first, size_t last)
  * @array: pointer to the initial element of the array to search in
  * @size: number of elements in array
  * @value: the value to search for
- * Return:
+ * Return: the index where value is located
  */
 
 int binary_search(int *array, size_t size, int value)
